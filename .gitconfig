@@ -1,0 +1,19 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+	ui = auto
+[user]
+        name = Xiaolong Mo
+        email = moxiaolong@gmail.com
+[help]
+	autocorrect = 1
+[core]
+	editor = vim
+	pager = less
+	ignorecase = false
+	autocrlf = input
+
